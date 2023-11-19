@@ -1,27 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="scroll-behavior: smooth;">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Chie-Ken Haus</title>
     <link rel="stylesheet" href="style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Averia+Gruesa+Libre&family=Barrio&family=Birthstone+Bounce&family=Nerko+One&family=Reenie+Beanie&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a7e8e6a65a.js" crossorigin="anonymous"></script>
 </head>
-<body class="p-0 m-0 select-none">
-    <div class="wrapper">
-        <div class="nav-bar bg-gray-800 text-slate-200 font-medium flex justify-between items-center h-14  max-w-full fixed top-0 left-0 right-0">
-            <div class="nav-left flex pl-4 gap-16 sm:gap-6 md:gap-10 transition-all duration-300">
-                <img alt="logo">
-                <a class=" hover:text-slate-400 sm:hidden" href="#home">HOME</a>
-                <a class=" hover:text-slate-400" href="#menu">MENU</a>
-                <a class=" hover:text-slate-400 sm:hidden" href="#about">ABOUT US</a>
+<body class="p-0 m-0 select-none overflow-x-hidden">
+    <div class="wrapper max-w-full">
+        <div class="nav-bar bg-yellow-700 text-slate-50 font-medium flex justify-between items-center h-14 max-w-full fixed top-0 left-0 right-0">
+            <div class="nav-left flex pl-4 gap-16 sm:gap-6 md:gap-10 sm:pl-0 transition-all duration-300 items-center">
+                <img alt="logo" src="images/logo.png" class="h-14 sm:h-12">
+                <a class=" hover:text-slate-900 sm:hidden" href="#home">HOME</a>
+                <a class=" hover:text-slate-900" href="#menu">MENU</a>
+                <a class=" hover:text-slate-900 sm:hidden" href="#contact">CONTACTS</a>
             </div>
-
-            <div class="nav-right pr-4">
-                <a class="rounded-full p-2 hover:bg-slate-200 hover:text-slate-800 transition-all duration-300 sm:p-0 " href="">SIGN UP / LOGIN</a>
+            <div class="nav-right pr-4 sm:pr-2">
+                <a class="rounded-full p-3 hover:bg-slate-200 hover:text-slate-800 transition-all duration-300 sm:p-2 " href="">SIGN UP / LOGIN</a>
             </div>
         </div>
 
@@ -38,56 +38,107 @@
             </div>
         </div>
 
-        <div class="flex justify-center items-center h-24 bg-amber-600 border-t-8 border-y-orange-800 sm:h-16" id="menu">
-            <p class="font-nerko text-5xl sm:text-2xl">INTRODUCING THE MENU</p>
+        <div class="flex justify-center items-center h-24 bg-amber-600 border-t-8 border-y-orange-800 sm:h-10 md:h-12" id="menu">
+            <p class="font-nerko text-5xl sm:text-2xl md:text-3xl">INTRODUCING THE MENU</p>
         </div>
 
-        
         <div class="border-t-8 border-y-orange-800 flex flex-wrap justify-center items-center bg-cover bg-center bg-menu-bg p-2">
-            
             <div>
                 <img src="images/bufallo.jpg" alt="buffalo-wings" class="h-72 sm:h-44">
             </div>
-
             <div class="w-72 h-72 p-2 bg-green-500 bg-opacity-70 flex flex-col justify-center items-center text-center gap-7 sm:h-44 sm:w-44 sm:gap-3">
                 <p class="font-nerko text-2xl sm:text-lg">Buffalo wings</p>
                 <p class="font-averia sm:text-xs">Flavor Include: Lemon Pepper, Garlic Parmesan, Sweet & Sour, Honey Barbecue, Honey Mustard</p>
             </div>
-
             <div>
                 <img src="images/chicken-alfredo-pasta.jpg" alt="chicken-alfredo-pasta" class="h-72 sm:h-44">
             </div>
-
             <div class="w-72 h-72 p-2 bg-pink-300 bg-opacity-70 flex flex-col justify-center items-center text-center gap-7 sm:h-44 sm:w-44 sm:gap-3">
                 <p class="font-nerko text-2xl sm:text-lg">Chicken Alfredo Pasta</p>
                 <p class="font-averia sm:text-xs">Other Choice: Creamy Cajun, Alfredo Penne, Blackened Chicken</p>
             </div>
-
             <div class="w-72 h-72 p-2 bg-yellow-500 bg-opacity-70 flex flex-col justify-center items-center text-center gap-7 sm:h-44 sm:w-44 sm:gap-3">
                 <p class="font-nerko text-2xl sm:text-lg">Chicken Marsala</p>
                 <p class="font-averia sm:text-xs">Chicken can be: Stuffed, Slow Cooked, Crockpot, Winesauced</p>
             </div>
-
             <div>
                 <img src="images/Chicken-Marsala.jpg" alt="Chicken-Marsala" class="h-72 sm:h-44">
             </div>
-
             <div class="w-72 h-72 p-2 bg-amber-700 bg-opacity-70 flex flex-col justify-center items-center text-center gap-7 sm:h-44 sm:w-44 sm:gap-3">
                 <p class="font-nerko text-2xl sm:text-lg">Grilled Chicken</p>
                 <p class="font-averia sm:text-xs">Part of Chicken Include: Drumstick, Thigh, Breast, Legs</p>
             </div>
-
             <div>
                 <img src="images/grilled chicken.jpg" alt="grilled-chicken" class="h-72 sm:h-44">
             </div>
         </div>
 
-        <div class="border-t-8 border-y-orange-800 flex flex-wrap justify-center w-full items-center p-2">
-            <div class="flex justify-around">
-                <div>asdasd</div>
-                <div>asdasd</div>
+        <div class="border-t-8 border-y-orange-800 h-80 bg-cover bg-top bg-no-repeat bg-sched-bg p-2 sm:h-72">
+            <div class="flex justify-around items-center h-full">
+                <div class="text-right">
+                    <p class="font-reenie text-blue-400 text-2xl sm:text-xs">We also serve some</p>
+                    <p class="font-bold font-barrio text-slate-200 text-4xl sm:text-base">GREAT ARTIST</p>
+                    <p class="font-bold font-barrio text-slate-200 text-7xl sm:text-3xl">COCKTAILS</p>
+                </div>
+                <div class="flex flex-col gap-3">
+                    <div class="flex justify-center items-center flex-col">
+                        <p class="font-averia text-slate-200 text-2xl sm:text-lg">Chie-Ken Haus</p>
+                        <p class="font-bounce text-lg text-slate-200 sm:text-sm">Opening Hours</p>
+                    </div>
+
+                    <table class="border-spacing-5 bg-yellow-600 bg-opacity-70 h-48 w-64 sm:h-36 sm:w-44">
+                        <tbody class="font-averia sm:text-xs">
+                            <tr>
+                                <td class="px-2">SUN</td>
+                                <td class="px-2">10:00AM - 10:00PM</td>
+                            </tr>
+                            <tr>
+                                <td class="px-2">MON</td>
+                                <td class="px-2">8:00AM - 10:00PM</td>
+                            </tr>
+                            <tr>
+                                <td class="px-2">TUE</td>
+                                <td class="px-2">8:00AM - 10:00PM</td>
+                            </tr>
+                            <tr>
+                                <td class="px-2">WED</td>
+                                <td class="px-2">8:00AM - 10:00PM</td>
+                            </tr>
+                            <tr>
+                                <td class="px-2">THU</td>
+                                <td class="px-2">8:00AM - 10:00PM</td>
+                            </tr>
+                            <tr>
+                                <td class="px-2">FRI</td>
+                                <td class="px-2">8:00AM - 10:00PM</td>
+                            </tr>
+                            <tr>
+                                <td class="px-2">SAT</td>
+                                <td class="px-2">10:00AM - 10:00PM</td>
+                            </tr>   
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
+
+        <div class="flex justify-center items-center h-24 bg-gradient-to-t from-slate-900 via-slate-700 to-slate-600 sm:h-10 md:h-12" id="menu">
+            <p class="font-reenie font-medium text-green-600 text-5xl sm:text-lg md:text-3xl">We are conventienly located in the love of your heart</p>
+        </div>
     </div>
+    <footer class="bg-black" id="contact">
+        <div class="text-yellow-50 flex justify-evenly gap-3 text-sm pt-4">
+            <i class="fa-solid fa-map-pin text-xs"> 456 8TH AVE @ 91ST, TC</i>
+            <i class="fa-solid fa-phone-volume text-xs"> 1911-342-7853</i>
+        </div>
+
+        <div class="text-yellow-50 flex justify-evenly py-5 sm:py-2 sm:text-xs flex-wrap">
+            <p>Privacy Policy</p>
+            <p>|</p>
+            <p>Terms & Conditions</p>
+            <p>|</p>
+            <p>© No Copyright Infringement Intended</p>
+        </div>
+    </footer>
 </body>
 </html>

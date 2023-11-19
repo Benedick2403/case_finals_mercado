@@ -18,6 +18,7 @@ module.exports = {
         'home-bg': "url('images/home-bg.jpg')",
         'menu-bg': "url('images/menu-bg.jpg')",
         'radial': 'radial-gradient(circle at center top, 	#F9F6EE 20%, 	#EDEADE 30%, #F5F5DC 20%)',
+        'sched-bg': "url('images/sched-bg.jpg')",
       },
 
       fontFamily: {
